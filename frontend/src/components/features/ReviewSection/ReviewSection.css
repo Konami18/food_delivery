@@ -1,0 +1,262 @@
+.review-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.review-section h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.rating-summary {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+}
+
+.rating-summary .avg-rating {
+    font-size: 42px;
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+.rating-summary .stars {
+    font-size: 24px;
+    color: #ffa500;
+}
+
+.rating-summary .total-reviews {
+    color: #666;
+    font-size: 14px;
+}
+
+.review-filters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.review-filters select {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.review-filters select:hover {
+    border-color: #ff6b6b;
+}
+
+.review-filters select:focus {
+    outline: none;
+    border-color: #ff6b6b;
+}
+
+.add-review-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.add-review-form h4 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.rating-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.rating-input .star {
+    font-size: 32px;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.rating-input .star.active,
+.rating-input .star:hover {
+    color: #ffa500;
+}
+
+.add-review-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+    resize: vertical;
+    min-height: 100px;
+    margin-bottom: 15px;
+}
+
+.add-review-form input[type="file"] {
+    margin-bottom: 15px;
+}
+
+.add-review-form button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.add-review-form button:hover {
+    background-color: #e55555;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.review-user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-user-name {
+    font-weight: 600;
+    color: #333;
+    font-size: 15px;
+}
+
+.review-date {
+    font-size: 12px;
+    color: #999;
+}
+
+.review-rating {
+    color: #ffa500;
+    font-size: 18px;
+}
+
+.review-comment {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.review-images {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.review-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.review-images img:hover {
+    transform: scale(1.05);
+}
+
+.review-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.helpful-btn {
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.3s;
+}
+
+.helpful-btn:hover {
+    background: #e0e0e0;
+    border-color: #ccc;
+}
+
+.admin-reply {
+    margin-top: 15px;
+    padding: 15px;
+    background: #fff9e6;
+    border-left: 3px solid #ffa500;
+    border-radius: 5px;
+}
+
+.admin-reply strong {
+    color: #ff6b6b;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.admin-reply p {
+    color: #333;
+    margin: 5px 0;
+}
+
+.admin-reply small {
+    color: #999;
+    font-size: 12px;
+}
+
+.no-reviews {
+    text-align: center;
+    color: #999;
+    padding: 40px;
+    background: white;
+    border-radius: 8px;
+}
+
+.login-prompt {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    color: #666;
+}
+
+.login-prompt button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}

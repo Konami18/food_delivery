@@ -1,0 +1,12 @@
+{
+  "name": "daln-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm --prefix backend run server\" \"npm --prefix frontend run dev\"",
+    "start:all": "concurrently \"npm --prefix backend run server\" \"npm --prefix frontend run dev\" \"npm --prefix admin run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

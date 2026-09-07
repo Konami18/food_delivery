@@ -1,0 +1,160 @@
+.food-detail {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.food-detail-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.food-detail-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.food-detail-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.food-detail-header {
+    margin-bottom: 20px;
+}
+
+.food-detail-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.food-rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.food-rating .stars {
+    color: #ffa500;
+    font-size: 20px;
+}
+
+.food-rating .rating-text {
+    color: #666;
+    font-size: 14px;
+}
+
+.food-detail-category {
+    display: inline-block;
+    background: #ff6b6b;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.food-detail-description {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.food-detail-price {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin-bottom: 25px;
+}
+
+.food-detail-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.food-detail-counter {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f9f9f9;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.food-detail-counter img {
+    width: 30px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.food-detail-counter img:hover {
+    transform: scale(1.2);
+}
+
+.food-detail-counter p {
+    font-size: 20px;
+    font-weight: 600;
+    min-width: 30px;
+    text-align: center;
+}
+
+.add-to-cart-btn {
+    background: #ff6b6b;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background: #e55555;
+}
+
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #ff6b6b;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .food-detail-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .food-detail-image {
+        height: 300px;
+    }
+    
+    .food-detail-header h2 {
+        font-size: 24px;
+    }
+    
+    .food-detail-price {
+        font-size: 28px;
+    }
+}

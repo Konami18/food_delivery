@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "mobile_app": "Mobile App",
+    "contact": "Contact Us",
+    "sign_in": "Sign In",
+    "orders": "Orders",
+    "favorites": "Favorites",
+    "addresses": "Addresses",
+    "rewards": "Rewards",
+    "logout": "Logout"
+  },
+  "header": {
+    "title": "Order your favorite food here",
+    "subtitle": "Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time."
+  },
+  "menu": {
+    "explore": "Explore our menu",
+    "subtitle": "Choose from a diverse menu featuring a delectable array of dishes. Our mission is to satisfy your cravings and elevate your dining experience."
+  },
+  "food": {
+    "add_to_cart": "Add to Cart",
+    "category": "Category",
+    "description": "Description",
+    "reviews": "Reviews"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "item": "Item",
+    "title_name": "Title",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "delivery_fee": "Delivery Fee",
+    "proceed_checkout": "Proceed to Checkout",
+    "empty": "Your cart is empty"
+  },
+  "order": {
+    "delivery_info": "Delivery Information",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email": "Email address",
+    "street": "Street",
+    "city": "City",
+    "state": "State",
+    "zip_code": "Zip code",
+    "country": "Country",
+    "phone": "Phone",
+    "place_order": "Place Order",
+    "my_orders": "My Orders",
+    "track_order": "Track Order"
+  },
+  "rewards": {
+    "title": "Loyalty Rewards",
+    "current_points": "Your Current Points",
+    "how_it_works": "How It Works",
+    "earn_points": "Earn 1 point for every $1 you spend",
+    "redeem": "Redeem Now",
+    "points": "POINTS"
+  },
+  "recommendations": {
+    "for_you": "Recommended For You",
+    "trending": "Trending Now",
+    "similar": "You Might Also Like",
+    "frequently_bought": "Frequently Bought Together"
+  },
+  "flash_sale": {
+    "title": "Flash Sale",
+    "ends_in": "Ends in",
+    "days": "Days",
+    "hours": "Hours",
+    "mins": "Mins",
+    "secs": "Secs"
+  },
+  "common": {
+    "loading": "Loading...",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "all": "All",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "submit": "Submit",
+    "back": "Back"
+  }
+}

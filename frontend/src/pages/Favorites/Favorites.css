@@ -1,0 +1,114 @@
+.favorites {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+    min-height: 60vh;
+}
+
+.favorites h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.favorites-count {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.empty-favorites {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.empty-favorites-icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+.empty-favorites h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.empty-favorites p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.browse-menu-btn {
+    background: #ff6b6b;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.browse-menu-btn:hover {
+    background: #e55555;
+}
+
+.login-prompt-favorites {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.login-prompt-favorites h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.login-prompt-favorites p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.login-prompt-favorites button {
+    background: #ff6b6b;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-prompt-favorites button:hover {
+    background: #e55555;
+}
+
+@media (max-width: 768px) {
+    .favorites {
+        margin-top: 80px;
+    }
+
+    .favorites h2 {
+        font-size: 24px;
+    }
+
+    .favorites-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+    }
+}

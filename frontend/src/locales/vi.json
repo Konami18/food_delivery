@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "menu": "Thực đơn",
+    "mobile_app": "Ứng dụng",
+    "contact": "Liên hệ",
+    "sign_in": "Đăng nhập",
+    "orders": "Đơn hàng",
+    "favorites": "Yêu thích",
+    "addresses": "Địa chỉ",
+    "rewards": "Điểm thưởng",
+    "logout": "Đăng xuất"
+  },
+  "header": {
+    "title": "Đặt món ăn yêu thích của bạn tại đây",
+    "subtitle": "Chọn từ thực đơn đa dạng với nhiều món ăn ngon được chế biến từ nguyên liệu tốt nhất. Sứ mệnh của chúng tôi là thỏa mãn khẩu vị và nâng cao trải nghiệm ẩm thực của bạn."
+  },
+  "menu": {
+    "explore": "Khám phá thực đơn",
+    "subtitle": "Chọn từ thực đơn đa dạng với nhiều món ăn hấp dẫn. Sứ mệnh của chúng tôi là thỏa mãn cơn thèm và nâng cao trải nghiệm ẩm thực của bạn."
+  },
+  "food": {
+    "add_to_cart": "Thêm vào giỏ",
+    "category": "Danh mục",
+    "description": "Mô tả",
+    "reviews": "Đánh giá"
+  },
+  "cart": {
+    "title": "Giỏ hàng của bạn",
+    "item": "Món",
+    "title_name": "Tên",
+    "price": "Giá",
+    "quantity": "Số lượng",
+    "total": "Tổng",
+    "subtotal": "Tạm tính",
+    "delivery_fee": "Phí giao hàng",
+    "proceed_checkout": "Tiến hành thanh toán",
+    "empty": "Giỏ hàng trống"
+  },
+  "order": {
+    "delivery_info": "Thông tin giao hàng",
+    "first_name": "Tên",
+    "last_name": "Họ",
+    "email": "Email",
+    "street": "Đường",
+    "city": "Thành phố",
+    "state": "Tỉnh/Thành",
+    "zip_code": "Mã bưu điện",
+    "country": "Quốc gia",
+    "phone": "Số điện thoại",
+    "place_order": "Đặt hàng",
+    "my_orders": "Đơn hàng của tôi",
+    "track_order": "Theo dõi đơn hàng"
+  },
+  "rewards": {
+    "title": "Điểm thưởng khách hàng",
+    "current_points": "Điểm hiện tại của bạn",
+    "how_it_works": "Cách thức hoạt động",
+    "earn_points": "Nhận 1 điểm cho mỗi $1 chi tiêu",
+    "redeem": "Đổi ngay",
+    "points": "ĐIỂM"
+  },
+  "recommendations": {
+    "for_you": "Đề xuất cho bạn",
+    "trending": "Đang hot",
+    "similar": "Bạn có thể thích",
+    "frequently_bought": "Thường mua cùng"
+  },
+  "flash_sale": {
+    "title": "Flash Sale",
+    "ends_in": "Kết thúc sau",
+    "days": "Ngày",
+    "hours": "Giờ",
+    "mins": "Phút",
+    "secs": "Giây"
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "sort": "Sắp xếp",
+    "all": "Tất cả",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "submit": "Gửi",
+    "back": "Quay lại"
+  }
+}
